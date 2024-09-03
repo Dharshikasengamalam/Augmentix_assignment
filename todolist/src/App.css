@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('C:/Users/stpma/Downloads/background.jpg'); /* Ensure the path to your image is correct */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: rgba(148, 205, 243, 0.5);
+   /* White box with slight transparency */
+  color: black; /* Black text inside the container */
+  padding: 40px; /* Increased padding for better spacing */
+  border-radius: 10px;
+  text-align: center;
+  max-width: 700px; /* Increased width */
+  width: 100%;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+transition: background-color 0.3s;
+   /* Center the text */
+}
+
+h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem; /* Increased font size for the header */
+}
+
+.top {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+input {
+  border: 1px solid #000;
+  outline: none;
+  width: 75%; /* Adjust width to fit the container */
+  padding: 0.75rem; /* Increased padding for input */
+  border-radius: 5px;
+}
+
+.add {
+  background-color: #0875ea; /* Blue background for the button */
+  color: white;
+  padding: 0.75rem 2rem; /* Increased padding for the button */
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.item {
+  position: relative;
+  font-size: 20px;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.7); /* Transparent dark background for items */
+  color: white;
+  padding: 2%;
+  height: 5%;
+  border-radius: 5px;
+  text-align: left; /* Align text to the left */
+  padding-left: 10px; /* Add padding to move text slightly from the left edge */
+}
+
+
+.icons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  display: flex;
+  gap: 0.5rem;
+}
+
+i {
+  cursor: pointer;
+}
